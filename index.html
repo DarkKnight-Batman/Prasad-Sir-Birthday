@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wishes</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <script>
+        // Redirects to wishes page when the page is clicked
+        function redirectToWishes() {
+            window.location.href = 'wishes.html';
+        }
+
+        window.onload = function() {
+            document.getElementById('index-bg').addEventListener('click', redirectToWishes);
+        };
+    </script>
+</head>
+<body>
+    <section class="page" id="index-bg">
+        <h1>With great power comes great responsibility</h1>
+    </section>
+</body>
+</html>
